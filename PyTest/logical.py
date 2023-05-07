@@ -13,18 +13,14 @@ def test_logical_operators():
 
     # and
     # Returns True if both statements are true.
-    #assert first_number > 0 and second_number < 20
+    assert first_number > 0 and second_number < 20
 
     # or
     # Returns True if one of the statements is true
-    #assert first_number > 5 or second_number < 20
+    assert first_number > 5 or second_number < 20
 
     # not
     # Reverse the result, returns False if the result is true.
     # pylint: disable=unneeded-not
-    #assert not first_number == second_number
-    #assert first_number != second_number
-
-def test_bidule():
-    # x = 2
-    return
+    assert not first_number == second_number
+    assert first_number != second_number
