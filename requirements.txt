@@ -1,0 +1,16 @@
+astroid
+atomicwrites
+attrs
+flake8
+isort
+lazy-object-proxy
+mccabe
+more-itertools
+pluggy
+py
+pycodestyle
+pyflakes
+pylint
+pytest
+six
+wrapt
